@@ -15,7 +15,7 @@ const Assinatura = (props) => {
     const clearSignature = (e) => {
         canvasRef.current.clear();
 
-        inputRef.current.focus();
+        // inputRef.current.focus();
     };
 
     const handleSubmit = async (e) => {
@@ -29,8 +29,8 @@ const Assinatura = (props) => {
     }
 
     useEffect(() => {
-        if (inputRef?.current)
-            inputRef.current.focus();
+        // if (inputRef?.current)
+        //     inputRef.current.focus();
     }, [])
 
     return (
