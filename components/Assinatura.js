@@ -10,7 +10,7 @@ const Assinatura = (props) => {
     const [name, setName] = useState()
 
     const canvasRef = useRef(null);
-    const inputRef = useRef(null);
+    // const inputRef = useRef(null);
 
     const clearSignature = (e) => {
         canvasRef.current.clear();
@@ -46,7 +46,7 @@ const Assinatura = (props) => {
                     <div>
                         <input type="text" className='form-control'
                             placeholder="Nome do Responsável"
-                            style={{ textTransform: "capitalize" }} autoFocus ref={inputRef}
+                            style={{ textTransform: "capitalize" }}
                             value={name}
                             onChange={e => setName(e.target.value)}
                         />
