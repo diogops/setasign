@@ -5,6 +5,8 @@ import Assinatura from '../components/Assinatura'
 
 export default function Home() {
   return (
-    <Assinatura />
+    <div style={{ justifyContent: "center" }} className={`containt-register alg-center `}>
+      <Assinatura />
+    </div>
   )
 }

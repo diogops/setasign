@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "apisauce": "^3.0.0",
     "bootstrap": "^5.2.3",
     "cep-promise": "^4.4.0",
