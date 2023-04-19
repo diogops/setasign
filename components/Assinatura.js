@@ -25,7 +25,7 @@ const Assinatura = () => {
                 <div style={{ textAlign: "center" }}>
                     <Image src={LOGO} alt="logo" className='logo-register' />
                 </div>
-                <div style={{ border: "1px dashed #cacaca", borderRadius: "5px", width: "100%", height: "50vh", padding: "5px", marginTop: "5px" }}>
+                <div style={{ border: "1px dashed #cacaca", borderRadius: "5px", width: "100%", height: "65vh", padding: "5px", marginTop: "5px" }}>
                     <SignatureCanvas ref={canvasRef} canvasProps={{ className: 'board-signature' }} maxWidth={3} minWidth={1} />
                 </div>
                 <div style={{ display: "flex", gap: "5px", marginTop: "15px" }}>
